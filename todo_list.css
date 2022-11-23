@@ -30,17 +30,9 @@
 		font-size: 1rem;		
 		background-color: black;
 }
-.input1
-{
-		margin-left: 6px;
-		margin-top: 18px;
-		margin-bottom: 10px;
-		width: 	250px;
-		font-size: 1rem;
-}
 .input4
 {
-	background-color: deepskyblue;
-	border-color: deepskyblue;
+	background-color: rgb(25, 0, 255);
+	border-color: rgb(25, 0, 255);
 	color: white;
 }
