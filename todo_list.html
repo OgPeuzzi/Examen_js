@@ -8,29 +8,25 @@
 	<title>Todo_list</title>
 </head>
 <body>
-	<table border="1" align="center">
-		<tr bgcolor="blue">
-			<td><h1 class="para">Todo list</h1></td>
-		</tr>
+	<table align="center">
 		<tr>
-			<td>	
-		   		<input type="text" placeholder="Rechercher une tache" class="input1">
-				<button>
-					<i class="fa-solid fa-magnifying-glass"></i> <br>
-				</button><br>
+			<td>
+				<div class="container"><fieldset>
+					<label for="new-task" align="center">My Todo</label><input id="new-task" type="text" placeholder="Input task name then tap Ajouter to add"><button>Ajouter</button>
+		  
+					   <ul id="incomplete-tasks"></ul>	<br>
 		   		<input type="checkbox" class="input2">
-				<label>Faire son petit dejeuner</label>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-trash-can"></i><br>
+				<label>Buy car signal lights</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-pencil">&nbsp;&nbsp;&nbsp;&nbsp;</i><i class="fa-regular fa-trash-can"></i><br>
 				<input type="checkbox" class="input2">
-				<del><label>Faire son lit</label></del>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-trash-can"></i><br>
+				<label>Return bicycle,brakes</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-pencil">&nbsp;&nbsp;&nbsp;&nbsp;</i><i class="fa-regular fa-trash-can"></i><br>
 				<input type="checkbox" class="input2">
-				<label>Faire des cours</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-trash-can"></i><br>
-				<input type="text" placeholder="Valider la liste"class="input3"><br><br>
+				<del><label>Buy A4 papers</label></del>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-pencil">&nbsp;&nbsp;&nbsp;&nbsp;</i><i class="fa-regular fa-trash-can"></i><br>
+				<input type="checkbox" class="input2">
+				<label>Install garage shed</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fas fa-pencil">&nbsp;&nbsp;&nbsp;&nbsp;</i><i class="fa-regular fa-trash-can"></i></fieldset>
+				</div>
+				<script src="./todo_list.js"></script>
 			</td>
 		</tr>
-		<tr bgcolor="Gainsboro">
-			<td><input type="text" placeholder="Ajouter une nouvelle tache" class="input1">
-				<button class="input4"><i class="fa-solid fa-plus"></i> Ajouter</button></td>
-		</tr>	
-	</table>
 </body>
 </html>
